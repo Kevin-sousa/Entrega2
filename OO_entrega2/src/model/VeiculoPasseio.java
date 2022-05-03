@@ -158,4 +158,13 @@ public class VeiculoPasseio extends Veiculo {
 		            System.out.println("__");
 		        }
 	}
+
+	@Override
+    public String toString() {
+        return "Veiculo \nMarca do veiculo: " + marca + "\nModelo do carro: " + modelo
+                + "\nrenavam: " + renavam + "\nPlaca:" + placa + "\nAno de faricação:" +
+        		"\nAno do modelo:" + anoModelo + "\nCapacidade do Tanque:" + capacidadeTanque +
+        		"\nvalor diaria:" + valorDiaria + "\nvalor diaria empresarial:" + valorDiariaEmpresarial 
+        		+ "\nvalor mensal:" + valorMensal + "\ntipo do veiculo:" + tipoVeiculo;
+    }      	          	 
 }
